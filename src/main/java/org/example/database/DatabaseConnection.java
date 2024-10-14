@@ -27,14 +27,14 @@ public class DatabaseConnection {
     private int localPort = 3307; // local port that will be forwarded to the remote db server
 
     private void initialize(String dbname) throws JSchException {
-        sshHost = "3.127.218.2";
-        String sshUser = "centos";
-        sshPrivateKey = "/Users/danielecalisti/Library/CloudStorage/OneDrive-EuserviceSrl/chiavi fad sftp/id_rsa.pem"; // Path to your PEM file
+        sshHost = "";
+        String sshUser = "";
+        sshPrivateKey = ""; // Path to your PEM file
         sshPort = 22;
         dbHost = "localhost";
         dbPort = 3306;
-        dbUser = "root";
-        dbPassword = "SRV2020@Fad";
+        dbUser = "";
+        dbPassword = "";
         dbName = dbname;
         localPort = 3307;
 
